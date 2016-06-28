@@ -1,0 +1,62 @@
+@import "../valo/valo.scss";
+
+@mixin custom {
+  @include valo;
+  
+  .v-slot-custom-header-content{
+  	  	background-color:#2980b9;
+  	  	padding-left:20px;
+  }
+  
+  .v-slot-custom-header-content .h1{
+  	color:white;
+  }
+  
+  .v-slot-content-container{
+  	padding:2px 12px 2px 12px;
+  	 
+  }
+  
+  .v-slot-content-panel-container{
+  	
+  	overflow-y: auto ! important;
+  	padding:0px 0px 0px 0px;
+  	background-color:#ffffff;
+  	zoom:90%;
+  	 
+  }
+  
+  .panel-container{
+  	
+  	height:100%;
+  	
+  }
+  
+  .v-slot-panel-container{
+  	
+  	padding:2px 12px 2px 12px;
+  	width:95%;
+  	zoom:90%;
+  }
+  
+  .login-container{
+  
+     padding:2px 0px 2px 12px;
+  
+  }
+  
+  .padding-left{
+  	padding-left:5px;
+   }
+   
+  
+  .tabpanel{
+  	padding:15px 15px 15px 15px;
+  	width:80%;
+  }
+   
+  
+
+}
+
+@include custom;
